@@ -1,0 +1,36 @@
+*{
+	outline: none;
+}
+
+table,th,td{
+	border: 1px solid black;
+	margin-top: 5px;
+	padding-left: 2px;
+	border-radius: 3px;
+}
+
+input{
+	margin-bottom: 2px;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+input[type=submit]{
+	margin-top: 5px;
+	cursor: pointer;
+}
+
+label{
+	color: #1c1c1c;
+	font-size: 1.2em;
+	font-style: bold;
+}
+
+#tabela{
+	float: left;
+	width: 50%;
+}
+
+#entradas{
+	width: 50%;
+	float: left;
+}
